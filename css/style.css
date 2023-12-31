@@ -1,0 +1,204 @@
+body{
+    background-color: #7545FF ;
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(8,1fr);
+    margin: 0;
+    padding: 0;
+}
+
+.datos{
+    background-color: rgb(167, 46, 157) ;
+}
+
+input{
+    margin-bottom: 2.8125rem;
+}
+
+h1{
+    font-family: 'Silkscreen', sans-serif;
+    float: left;
+}
+
+#portada {
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    top: 0;
+    position: sticky;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: rgb(200, 22, 216);
+    margin-bottom: 1.25rem;
+}
+
+nav {
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-family: 'Silkscreen', sans-serif;
+    background-color: rgb(200, 22, 216);
+    float: right;
+}
+
+.boton{
+    background-color: rgb(0, 255, 255);
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.contact-grid{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+h2{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif;
+    background-color: rgb(167, 46, 157);
+}
+
+h3{
+    font-family: 'Silkscreen', sans-serif; 
+    text-align: center;
+}
+
+.descParty{
+    font-family: 'Silkscreen', sans-serif; 
+    background-color: rgb(167, 46, 157) ;
+}
+
+p{
+    text-align: center;
+}
+
+
+.ff-1{
+    border-radius: 50%;
+    width: 9.75rem;
+    height: 9.75rem;
+    overflow: hidden;
+}
+
+.ff-2{
+    border-radius: 50%;
+    width: 9.75rem;
+    height: 9.75rem;
+    overflow: hidden;
+}
+
+.ff-3{
+    border-radius: 50%;
+    width: 9.75rem;
+    height: 9.75rem;
+    overflow: hidden;
+}
+
+#bi2{
+    text-align: center;
+}
+
+#bi3{
+    float: right;
+}
+
+footer{
+    display: grid;
+    grid-row-start: 8;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: rgb(124, 98, 98,.5);
+    width: 100%;
+    height: 10%;
+    font-family: 'Silkscreen', sans-serif;
+    position: relative;
+    margin-top: 1.25rem;
+    bottom: auto;
+}
+ul{
+    background-color: rgb(124, 98, 98,.5);
+    font-family: 'Silkscreen', sans-serif;
+}
+li{
+    background-color: rgb(124, 98, 98,.5);
+    font-family: 'Silkscreen', sans-serif;
+}
+
+#sugerencia{
+    background-color: white;
+}
+
+.nfiesta{
+    text-align: center;
+}
+
+img{
+    left: 50%;
+    width: 45rem;
+    height: 22.5rem;
+}
+
+form{
+    display: grid;
+    max-width: 25%;
+    margin-bottom: 3.75rem;
+}
+
+.partyPic{
+    display: grid;
+    width: 18rem;
+    height: 18rem;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    margin-bottom: 2.8125rem;
+    margin-left: 12%;
+}
+
+.faq{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.pregunta{
+    margin-top: 4.8125rem;
+    margin-bottom: 4.8125rem;
+}
+
+.fd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.contInicio{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.botonesInicio{
+    display: grid;
+    width: 100%;
+    margin-top: 3.75rem;
+    grid-column-start: 3;
+}
+
+.tituloInicio{
+    grid-row-start: 3;
+    margin-bottom: 120px;
+}
+
+.boxInicio{
+    grid-row-start: 3;
+}
+
+.contFiestas{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
