@@ -142,7 +142,7 @@ form {
   margin-bottom: 120px; }
 
 .boxInicio {
-  grid-row-start: 3; }
+  background-color: #9591C2; }
 
 .contFiestas {
   grid-column-start: 1;

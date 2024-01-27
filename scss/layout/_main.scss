@@ -1,23 +1,20 @@
 body{
     background-image: linear-gradient(to left bottom, #93B7E1, #9591C2, #A0DBF3, #9591C2, #93B7E1);
     width: 100%;
-    height: 100vh;
     margin: 0;
     padding: 0;
 }
 
 main{
-    grid-column-start: 1;
-    grid-column-end: 7;
+    margin-bottom: 8rem;
 }
 
+
 .datos{
-    display: grid;
     justify-content: center;
     background-color: #FFC1EA;
     grid-column-start: 3;
     grid-column-end: 7;
-    
 }
 
 input{
@@ -64,8 +61,7 @@ p{
     width: 9.75rem;
     height: 9.75rem;
     overflow: hidden;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+
 }
 
 .sugerencia{
@@ -107,19 +103,14 @@ form{
 
 .contInicio{
     width: 100%;
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 7;
+    height: 45rem;
     align-content: space-evenly;
     justify-items: center;
 }
 
 .botonesInicio{
-    display: grid;
     width: 100%;
-    margin-top: 3.75rem;
-    grid-column-start: 3;
-    grid-column-end: 7;
+    margin: 20rem
 }
 
 .tituloInicio{
@@ -129,7 +120,7 @@ form{
 }
 
 .boxInicio{
-    grid-row-start: 3;
+    background-color: #9591C2;
 }
 
 .contFiestas{
@@ -166,4 +157,13 @@ form{
 
 p{
     font-family: 'Silkscreen', sans-serif;
+}
+
+.fast{
+    width: 100%;
+}
+button{
+    background-color: rgb(149, 193, 235);
+    font-family: 'Silkscreen', sans-serif;
+    text-decoration: none;
 }
