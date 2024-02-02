@@ -6,7 +6,8 @@ body{
 }
 
 main{
-    margin-bottom: 8rem;
+    margin-bottom: 15.5rem;
+    padding: 3.125rem;
 }
 
 
@@ -53,6 +54,8 @@ h3{
 
 p{
     text-align: center;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1rem;
 }
 
 
@@ -155,9 +158,6 @@ form{
     font-family: 'Silkscreen', sans-serif;
 }
 
-p{
-    font-family: 'Silkscreen', sans-serif;
-}
 
 .fast{
     width: 100%;
@@ -167,3 +167,4 @@ button{
     font-family: 'Silkscreen', sans-serif;
     text-decoration: none;
 }
+
